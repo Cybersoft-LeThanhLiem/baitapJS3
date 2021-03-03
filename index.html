@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-6">
+            <h3>Bài 3:</h3>
+            <form>
+                <div class="form-group">
+                    <label for="usd">Số lượng USD</label>
+                    <input type="number" class="form-control" id="usd">
+                </div>
+                <button type="button" id="btnExc" class="btn btn-success">Quy đổi</button>
+            </form>
+            <p id="vnd" class="mt-4"></p>
+        </div>
+        <div class="col-6">
+            <h3>Bài 4:</h3>
+            <form>
+                <div class="form-group">
+                    <label for="length">Chiều dài HCN</label>
+                    <input type="number" class="form-control" id="length">
+                </div>
+                <div class="form-group">
+                    <label for="width">Chiều rộng HCN</label>
+                    <input type="number" class="form-control" id="width">
+                </div>
+                <button type="button" id="btnArea" class="btn btn-primary">Tính diện tích</button>
+                <p class="mt-2" id="area"></p>
+                <button type="button" id="btnPerimeter" class="btn btn-primary">Tính chu vi</button>
+                <p class="mt-2" id="perimeter"></p>
+            </form>
+        </div>
+        <div class="col-6">
+            <h3>Bài 5:</h3>
+            <form>
+                <div class="form-group">
+                    <label for="num">Nhập số có 2 chữ số: </label>
+                    <input type="number" class="form-control" id="num">
+                </div>
+                <button type="button" id="btnSum" class="btn btn-danger">Tính tổng 2 chữ số: </button>
+                <p class="mt-2" id="sum"></p>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>
